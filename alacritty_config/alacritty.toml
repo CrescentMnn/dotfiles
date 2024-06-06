@@ -21,11 +21,11 @@ decorations_theme_variant = "Light" # "Dark"
 [colors.primary]
 #background = '#112a2a'
 background = '#000000'
-foreground = '#33ff33'
+foreground = '#01c1fe'
 
 [colors.cursor]
 text = '#112a2a'
-cursor = '#ff00ff'
+cursor = '#01d504'
 
 [colors.vi_mode_cursor]
 text = '#112a2a'
