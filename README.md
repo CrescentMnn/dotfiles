@@ -3,10 +3,10 @@
 This is a repo for my personal dotfiles.
 
 I am using Debain 12 and working currently with i3 and its adjacents like:
-13blocks
-i3lock
-i3status
-picom
+* 13blocks
+* i3lock
+* i3status
+* picom
 
 ## Terminal workplace
 ![Screenshot from 2024-06-06 02-24-49](https://github.com/CrescentMnn/dotfiles/assets/169625322/dacb387d-641c-47b8-8d39-7f10c4a99f17)
