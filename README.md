@@ -26,7 +26,7 @@ To use these dotfiles, you can clone the repository and copy the files to your h
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/dotfiles.git
+git clone https://github.com/CrescentMnn/dotfiles.git
 
 # Navigate to the dotfiles directory
 cd dotfiles
