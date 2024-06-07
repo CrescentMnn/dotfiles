@@ -22,7 +22,7 @@ I am using Debain 12 and working currently with i3 and its adjacents like:
 
 ## Installation
 
-To use these dotfiles, you can clone the repository and copy the files to your home directory. Here are the steps:
+To use these dotfiles, you can clone the repository and copy the files to your home directory:
 
 ```bash
 # Clone the repository
