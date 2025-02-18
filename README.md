@@ -10,6 +10,8 @@ I am using Debain 12 and working currently with i3 and its adjacents like:
 
 ## Terminal workplace
 ![image](https://github.com/user-attachments/assets/1d3b6e84-2491-4cc5-89ed-9dac17146e6a)
+![image](https://github.com/user-attachments/assets/c2e30ba2-ca20-4b3b-8edc-86332dab1fa1)
+
 
 ## Firefox workplace
 ![Screenshot from 2024-06-06 02-27-02](https://github.com/CrescentMnn/dotfiles/assets/169625322/44946d6a-f199-4630-bfe6-ea141cada666)
