@@ -9,7 +9,7 @@ I am using Debain 12 and working currently with i3 and its adjacents like:
 * picom
 
 ## Terminal workplace
-![Screenshot from 2024-06-06 02-24-49](https://github.com/CrescentMnn/dotfiles/assets/169625322/dacb387d-641c-47b8-8d39-7f10c4a99f17)
+![image](https://github.com/user-attachments/assets/1d3b6e84-2491-4cc5-89ed-9dac17146e6a)
 
 ## Firefox workplace
 ![Screenshot from 2024-06-06 02-27-02](https://github.com/CrescentMnn/dotfiles/assets/169625322/44946d6a-f199-4630-bfe6-ea141cada666)
