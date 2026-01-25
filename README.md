@@ -78,7 +78,7 @@ _Screenshots of miscellaneous applications, development tools, or studio-style w
 
 _Screenshot showing lock script in function._
 
-![Lock Screenshot](images/lock)
+![Lock Screenshot](images/lock.png)
 
 ## Notes
 
