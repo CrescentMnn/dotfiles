@@ -1,68 +1,86 @@
-# dotfiles
+# Debian 12 Dotfiles
 
-This is a repo for my personal dotfiles.
+This repository contains my personal dotfiles for a Debian 12 (Bookworm) setup focused on a minimal, keyboard-driven workflow. The configuration is built around the i3 window manager, with a lightweight compositor, custom bars, and small scripts to improve daily usability. The goal of this setup is to stay fast, simple, and highly customizable without unnecessary bloat.
 
-I am using Debain 12 and working currently with i3 and its adjacents like:
-* 13blocks
-* i3lock
-* i3status
-* picom
+These dotfiles are actively used and may evolve over time as I tweak visuals, keybindings, or workflows.
 
-## Terminal workplace
-![image](https://github.com/user-attachments/assets/1d3b6e84-2491-4cc5-89ed-9dac17146e6a)
+---
 
-## Firefox workplace
-![Screenshot from 2024-06-06 02-27-02](https://github.com/CrescentMnn/dotfiles/assets/169625322/44946d6a-f199-4630-bfe6-ea141cada666)
+## Window Manager
 
-## Music workplace
-![Screenshot from 2024-06-06 02-27-45](https://github.com/CrescentMnn/dotfiles/assets/169625322/cdb96c90-dcb3-4560-aed6-e924e38d7858)
+This setup uses **i3** as the window manager. i3 provides a tiling, keyboard-first environment that makes window management efficient and predictable. The configuration focuses on simple layouts, clear keybindings, and fast window navigation without relying on the mouse.
 
-## i3lock
-![Screenshot from 2024-06-06 02-28-16](https://github.com/CrescentMnn/dotfiles/assets/169625322/29184644-6336-47f6-919d-d00ea89fa248)
+---
 
-## Installation
+## Status Bars and System Information
 
-To use these dotfiles, you can clone the repository and copy the files to your home directory:
+System information is displayed using **Polybar**, with additional support files for **i3blocks** and **i3status**. These tools are used to show workspace status, system metrics, and other useful indicators. The bar configuration is modular and designed to be easy to modify or extend.
 
-```bash
-# Clone the repository
-git clone https://github.com/CrescentMnn/dotfiles.git
+---
 
-# Navigate to the dotfiles directory
-cd dotfiles
+## Compositor and Visual Effects
 
-# Copy the configuration files to your home directory
-cp -r .config/* ~/.config/
+**Picom** is used as the compositor to enable transparency, shadows, and smooth visual effects. The configuration keeps effects subtle to avoid impacting performance while still improving visual clarity and polish.
 
-```
+---
 
-## Configuration
+## Scripts and Automation
 
-This repository includes configuration files for the following:
+This setup includes custom scripts to handle startup tasks, bar launching, and small quality-of-life improvements. These scripts are meant to be simple and readable so they can be easily modified or reused.
 
-- **i3**: The window manager configuration.
-- **i3status**: The status bar configuration.
-- **i3blocks**: A flexible status line for the i3 window manager.
-- **picom**: A compositor for X11, used for window transparency and effects.
-- **scripts**: Custom scripts, including `i3lock` for screen locking.
+---
 
-### i3
+## Images and Assets
 
-The i3 configuration file is located at `.config/i3/config`. This file contains the keybindings, window rules, and other settings for the i3 window manager.
+Wallpaper files and other visual assets used by the window manager and bars are stored in this repository to keep the setup consistent across systems.
 
-### i3status
+---
 
-The i3status configuration file is located at `.config/i3status/config`. This file defines what information is displayed in the i3 status bar.
+## Installation and Usage
 
-### i3blocks
+To use these dotfiles:
 
-The i3blocks configuration file is located at `.config/i3blocks/config`. This file allows you to customize the blocks displayed in the status bar.
+1. Make sure you are running **Debian 12** and have i3 installed.
+2. Install the required dependencies such as i3, polybar, picom, and any fonts used by the bar.
+3. Back up your existing configuration files before proceeding.
+4. Copy or symlink the configuration files into your `~/.config/` directory.
+5. Make scripts executable if needed.
+6. Restart i3 or log out and log back in to apply the changes.
 
-### picom
+These dotfiles are intended as a reference and starting point—feel free to adapt them to your own workflow.
 
-The picom configuration file is located at `.config/picom/picom.conf`. This file contains settings for window transparency, shadows, and other visual effects.
+---
 
-### Scripts
+## Screenshots
 
-The `scripts` directory contains custom scripts that enhance the functionality of i3. For example, the `i3lock` script is used for locking the screen with a custom lock screen.
+### Terminal
+_Screenshot showcasing the terminal setup, colorscheme, and font._
+
+![Terminal Screenshot](images/dotfiles.png)
+
+---
+
+### Firefox
+_Screenshot showing Firefox integrated into the i3 workflow._
+
+![Firefox Screenshot](images/firefox.png)
+
+---
+
+### Misc / Studio Windows
+_Screenshots of miscellaneous applications, development tools, or studio-style windows._
+
+![Misc Screenshot](images/misc.png)
+
+---
+
+### Lock window
+
+_Screenshot showing lock script in function._
+
+![Lock Screenshot](images/lock)
+
+## Notes
+
+This configuration prioritizes clarity, speed, and maintainability over heavy customization. Some parts may be specific to my hardware or preferences, so minor adjustments may be required when using it on a different system.
 

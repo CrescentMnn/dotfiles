@@ -123,11 +123,11 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:  Terminal"
-set $ws2 "2:  Firefox"
-set $ws3 "3:  Music"
-set $ws4 "4:  Misc"
-set $ws5 "5:  Misc"
+set $ws1 "1: Terminal"
+set $ws2 "2: Firefox"
+set $ws3 "3: Studio"
+set $ws4 "4: Misc"
+set $ws5 "5: Misc"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
@@ -147,7 +147,7 @@ bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 
 assign [class="Alacritty"] $ws1
-assign [class="Firefox-esr"] $ws2
+assign [class="firefox-esr"] $ws2
 assign [class="Spotify"] $ws3
 
 # move focused container to workspace
@@ -229,10 +229,12 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
-#exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/moon/Pictures/pexels-pixabay-247600.jpg'
-#exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/moon/Downloads/Snapinsta.app_275567071_285791743693784_9011662754492564877_n_1080.jpg'
-#exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/moon/Downloads/pexels-pixabay-302304.jpg'
-exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/moon/Downloads/pexels-lum3n-44775-167699.jpg'
+# exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/moon/Pictures/pexels-pixabay-247600.jpg'
+# exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/moon/Downloads/Snapinsta.app_275567071_285791743693784_9011662754492564877_n_1080.jpg'
+# exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/moon/Downloads/pexels-pixabay-302304.jpg'
+# exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/moon/Downloads/pexels-lum3n-44775-167699.jpg'
+
+exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/moon/Downloads/blue_hills_by_neaben_dg8sgt8.jpg'
 
 default_border pixel 0
 
